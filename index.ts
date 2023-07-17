@@ -13,7 +13,7 @@ class BootLevel extends Phaser.Scene {
     // CHANGE BASE URL!!!!
     this.add.text(20, 20, 'Boot Sequence Initiated.');
     this.load.baseURL =
-      'https://towelwizard.github.io/starting-boilerplate-mine/';
+      'https://towelwizard.github.io/Tank-Game/';
     this.load.bitmapFont({
       key: 'Oswald',
       textureURL: 'static/assets/font/OswaldLightRed.png',
